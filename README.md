@@ -1,2 +1,1 @@
-# jdelgad
-This repository was automatically created from Canvas.
+# My name is Justin Delgado, I am a senior pursuing a bachelors of science degree in the field of informatics. I am fairly new to github but I am familair with terminals.
