@@ -3,9 +3,7 @@ package com.example.timeapplication;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -13,15 +11,17 @@ import java.util.Calendar;
 public class MainActivity extends AppCompatActivity {
     TextView textView;
 
+
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Object textView1 = findViewById(R.id.textView);
+        textView = findViewById(R.id.textView2);
 
         Calendar calendar = Calendar.getInstance();
+
 
         @SuppressLint("SimpleDateFormat") SimpleDateFormat simpleDateFormat = new SimpleDateFormat();
         String dateTime = simpleDateFormat.format(calendar.getTime());
